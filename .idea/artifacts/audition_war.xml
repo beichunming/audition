@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="audition:war">
     <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>audition</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="audition.war">
       <element id="artifact" artifact-name="audition:war exploded" />
     </root>

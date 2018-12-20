@@ -17,7 +17,7 @@ public class StringTest {
         String string = test2();
         System.out.println(string);
     }
-
+    
     public static String test1(){
         String str = "abcdefcef";
         Map<String,Integer>map = new HashMap<>();
